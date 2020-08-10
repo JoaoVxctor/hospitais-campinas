@@ -1,5 +1,4 @@
 import { DataCard } from './components/dataCard.js';
-import { CarouselItem } from './components/carouselItem.js';
 
 
 const searchBar = document.querySelector(`#searchBar`);
