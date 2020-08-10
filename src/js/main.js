@@ -30,20 +30,7 @@ async function displayData() {
   });
 }
 
-async function displayCarousel() {
-  const carousel = document.querySelector(`.carousel-inner`);
-  carousel.innerHTML = ``;
-
-  data.forEach(data => {
-    const el = document.createElement(`carousel-item`);
-    el.data = data;
-    carousel.appendChild(el);
-  });
-
-}
-
 document.addEventListener(`DOMContentLoaded`, async () => {
   data = await getData();
   await displayData();
-  await displayCarousel();
 });
