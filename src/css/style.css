@@ -1,0 +1,35 @@
+:root{
+    --bg-color:#ea8685;
+    --letter-color: #f5cd79;
+}
+
+
+* {
+    font-family: 'Helvetica', 'Roboto' ,Arial, 'Ubunutu', Helvetica, sans-serif;
+}
+body {
+    background-color: #FFFFFF;
+}
+
+.standard{
+    background-color: var(--bg-color);
+    text-emphasis-color: var(--letter-color);
+}
+
+.card-image{
+    max-width: 12%;
+    image-resolution: 100%;
+}
+
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    max-width: 50vh;
+}
