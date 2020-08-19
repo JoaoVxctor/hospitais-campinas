@@ -1,0 +1,68 @@
+[
+    {
+    "nome": "Hospital Puc-Campinas",
+    "telefone": "(19) 3343-8600",
+    "inauguracao": 1979,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "Av. John Boyd Dunlop",
+      "numero": "s/n",
+      "cep": "13030-904"
+    }
+  },
+  {
+    "nome": "Hospital Renascença Campinas",
+    "telefone": "(19) 3727-5200",
+    "inauguracao": 2012,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "Av. Barão de Itapura",
+      "numero": "1444",
+      "cep": "13020-432"
+    }
+  },
+  {
+    "nome": "Hospital de Clínicas",
+    "telefone": "(19) 3521-2121",
+    "inauguracao": 1984,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "R. Vital Brasil",
+      "numero": "251",
+      "cep": "13083-888"
+    }
+  },
+  {
+    "nome": "Hospital Vera Cruz",
+    "telefone": "(19) 3734-3000",
+    "inauguracao": 1943,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "Av. Andrade Neves",
+      "numero": "402",
+      "cep": "13013-908"
+    }
+  },
+  {
+    "nome": "Hospital Samaritano Campinas",
+    "telefone": "(19) 3736-1000",
+    "inauguracao": 1979,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "R. Eng. Monlevade",
+      "numero": "206",
+      "cep": "13041-304"
+    }
+  },
+  {
+    "nome": "Hospital Municipal Mário Gatti",
+    "telefone": "(19) 3772-5700",
+    "inauguracao": 1974,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "Av. Pref. Faria Lima,",
+      "numero": "340",
+      "cep": "13036-902"
+    }
+  }
+]
