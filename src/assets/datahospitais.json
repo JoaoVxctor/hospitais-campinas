@@ -7,7 +7,9 @@
       "cidade": "Campinas",
       "rua": "Av. John Boyd Dunlop",
       "numero": "s/n",
-      "cep": "13030-904"
+      "cep": "13030-904",
+      "latitude": "-22.920807",
+      "longitude": "-47.119808"
     }
   },
   {
@@ -18,7 +20,9 @@
       "cidade": "Campinas",
       "rua": "Av. Barão de Itapura",
       "numero": "1444",
-      "cep": "13020-432"
+      "cep": "13020-432",
+      "latitude": "-22.892425",
+      "longitude": "-47.063818"
     }
   },
   {
@@ -29,7 +33,9 @@
       "cidade": "Campinas",
       "rua": "R. Vital Brasil",
       "numero": "251",
-      "cep": "13083-888"
+      "cep": "13083-888",
+      "latitude": "-22.826830",
+      "longitude": "-47.064095"
     }
   },
   {
@@ -40,7 +46,9 @@
       "cidade": "Campinas",
       "rua": "Av. Andrade Neves",
       "numero": "402",
-      "cep": "13013-908"
+      "cep": "13013-908",
+      "latitude": "-22.904717",
+      "longitude": "-47.068434"
     }
   },
   {
@@ -51,7 +59,9 @@
       "cidade": "Campinas",
       "rua": "R. Eng. Monlevade",
       "numero": "206",
-      "cep": "13041-304"
+      "cep": "13041-304",
+      "latitude": "-22.917728",
+      "longitude": "-47.059502"
     }
   },
   {
@@ -60,9 +70,63 @@
     "inauguracao": 1974,
     "endereco":{
       "cidade": "Campinas",
-      "rua": "Av. Pref. Faria Lima,",
+      "rua": "Av. Pref. Faria Lima",
       "numero": "340",
-      "cep": "13036-902"
+      "cep": "13036-902",
+      "latitude": "-22.916066",
+      "longitude": "-47.068532"
+    }
+  },
+  {
+    "nome": "HUC - Hospital Unimed Campinas",
+    "telefone": "(19) 3773-9310",
+    "inauguracao": 2017,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "R. São Carlos",
+      "numero": "369",
+      "cep": "13035-420",
+      "latitude": "-22.914157",
+      "longitude": "-47.064802"
+    }
+  },
+  {
+    "nome": "Hospital Irmãos Penteado , Santa Casa de Campinas",
+    "telefone": "(19) 2515-3100",
+    "inauguracao": 1936,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "Av. Júlio de Mesquita",
+      "numero": "571",
+      "cep": "13024-180",
+      "latitude": "-22.900699",
+      "longitude": "-47.054899"
+    }
+  },
+  {
+    "nome": "Beneficência Portuguesa",
+    "telefone": "(19) 3739-4000",
+    "inauguracao": 1873,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "R. Onze de Agosto",
+      "numero": "557",
+      "cep": "13013-101",
+      "latitude": "-22.904036",
+      "longitude": "-47.068389"
+    }
+  },
+  {
+    "nome": "Maternidade de Campinas",
+    "telefone": "(19) 3306-6000",
+    "inauguracao": 1913,
+    "endereco":{
+      "cidade": "Campinas",
+      "rua": "Av. Orosimbo Maia",
+      "numero": "165",
+      "cep": "13023-002",
+      "latitude": "-22.899605",
+      "longitude": "-47.063313"
     }
   }
 ]
