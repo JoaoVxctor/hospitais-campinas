@@ -5,9 +5,19 @@
   --error: #cf6679;
   --text-color: #e14594;
 }
-
 * {
   font-family: "Helvetica", "Roboto", Arial, "Ubunutu", Helvetica, sans-serif;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.map-container {
+  display: flex;
+  height: 50vh;
+  width: 100%;
 }
 
 .standard {
