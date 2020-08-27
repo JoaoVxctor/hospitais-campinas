@@ -17,13 +17,15 @@
 .map-container {
   display: flex;
   height: 50vh;
-  width: 100%;
+  width: 100vw;
 }
 
-.standard {
-  background-color: #bb86fc;
+.body {
+  background-color: black;
 }
-
+.navbar {
+  background-color: blueviolet;
+}
 .card-image {
   max-width: 12%;
   image-resolution: 100%;
