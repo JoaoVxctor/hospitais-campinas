@@ -3,7 +3,7 @@
     "nome": "Hospital Puc-Campinas",
     "telefone": "(19) 3343-8600",
     "inauguracao": 1979,
-    "imagem": "https://emc-src.eptv.com.br/dbimagens/fachada_do_790x444_24032020172435.jpg",
+    "imagem": "./assets/image/Hospital Puc-Campinas.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "Av. John Boyd Dunlop",
@@ -17,7 +17,7 @@
     "nome": "Hospital Renascença Campinas",
     "telefone": "(19) 3727-5200",
     "inauguracao": 2012,
-    "imagem": "https://floriculturahospital.com.br/wp-content/uploads/2017/07/floricultura-hospital-renascenca-campinas-notredame-intermedica.png",
+    "imagem": "./assets/image/Hospital Renascença Campinas.png",
     "endereco":{
       "cidade": "Campinas",
       "rua": "Av. Barão de Itapura",
@@ -31,7 +31,7 @@
     "nome": "Hospital de Clínicas",
     "telefone": "(19) 3521-2121",
     "inauguracao": 1984,
-    "imagem": "https://emc-src.eptv.com.br/dbimagens/fachada_do_790x444_24032020172435.jpg",
+    "imagem": "./assets/image/Hospital de Clínicas.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "R. Vital Brasil",
@@ -45,7 +45,7 @@
     "nome": "Hospital Vera Cruz",
     "telefone": "(19) 3734-3000",
     "inauguracao": 1943,
-    "imagem": "http://www.hospitalveracruz.com.br/redim/1200/conteudo/imagem/2018/nov/hospital-vera-cruz-campinas_1542368191_fotohvc.jpg",
+    "imagem": "./assets/image/Hospital Vera Cruz.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "Av. Andrade Neves",
@@ -59,7 +59,7 @@
     "nome": "Hospital Samaritano Campinas",
     "telefone": "(19) 3736-1000",
     "inauguracao": 1979,
-    "imagem": "https://campinassaude.com.br/wp-content/uploads/2017/05/planos-de-saude-hospital-samaritano-convenios-campinas-saude.jpg",
+    "imagem": "./assets/image/Hospital Samaritano Campinas.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "R. Eng. Monlevade",
@@ -73,7 +73,7 @@
     "nome": "Hospital Municipal Mário Gatti",
     "telefone": "(19) 3772-5700",
     "inauguracao": 1974,
-    "imagem": "https://s2.glbimg.com/huWfzrkkDUPEyOt5yScbDILbC3s=/0x0:1283x709/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/H/1/Htb2HGTzuEhQip2nOzag/mariogatti.jpg",
+    "imagem": "./assets/image/Hospital Municipal Mário Gatti.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "Av. Pref. Faria Lima",
@@ -87,7 +87,7 @@
     "nome": "HUC - Hospital Unimed Campinas",
     "telefone": "(19) 3773-9310",
     "inauguracao": 2017,
-    "imagem": "https://www.unimedcampinas.com.br/CMS/files/Paginas/CPS.jpg",
+    "imagem": "./assets/image/HUC - Hospital Unimed Campinas.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "R. São Carlos",
@@ -101,7 +101,7 @@
     "nome": "Hospital Irmãos Penteado , Santa Casa de Campinas",
     "telefone": "(19) 2515-3100",
     "inauguracao": 1936,
-    "imagem": "https://revistaprojeto.com.br/wp-content/uploads/2017/02/pdt_ft1_13058-770x458.jpg",
+    "imagem": "./assets/image/Hospital Irmãos Penteado , Santa Casa de Campinas.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "Av. Júlio de Mesquita",
@@ -115,7 +115,7 @@
     "nome": "Beneficência Portuguesa",
     "telefone": "(19) 3739-4000",
     "inauguracao": 1873,
-    "imagem": "https://iabcampinas.org.br/wp-content/uploads/2015/10/1314FT16002-Large-950x512.jpg",
+    "imagem": "./assets/image/Beneficência Portuguesa.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "R. Onze de Agosto",
@@ -129,7 +129,7 @@
     "nome": "Maternidade de Campinas",
     "telefone": "(19) 3306-6000",
     "inauguracao": 1913,
-    "imagem": "https://s2.glbimg.com/io4S7XjevsRIkTlsspjuozIRZV8=/0x0:1040x585/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/e/O/OLSxVcSPOGAzKhrCuT9A/maternidade.jpg",
+    "imagem": "./assets/image/Maternidade de Campinas.jpg",
     "endereco":{
       "cidade": "Campinas",
       "rua": "Av. Orosimbo Maia",
