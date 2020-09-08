@@ -6,9 +6,10 @@
     "imagem": "./assets/image/Hospital Puc-Campinas.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Jardim Londres",
       "rua": "Av. John Boyd Dunlop",
       "numero": "s/n",
-      "cep": "13030-904",
+      "cep": "13034-685",
       "latitude": "-22.920807",
       "longitude": "-47.119808"
     }
@@ -20,6 +21,7 @@
     "imagem": "./assets/image/Hospital Renascença Campinas.png",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Guanabara",
       "rua": "Av. Barão de Itapura",
       "numero": "1444",
       "cep": "13020-432",
@@ -34,6 +36,7 @@
     "imagem": "./assets/image/Hospital de Clínicas.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Barão Geraldo",
       "rua": "R. Vital Brasil",
       "numero": "251",
       "cep": "13083-888",
@@ -48,6 +51,7 @@
     "imagem": "./assets/image/Hospital Vera Cruz.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Conceicao",
       "rua": "Av. Andrade Neves",
       "numero": "402",
       "cep": "13013-908",
@@ -62,6 +66,7 @@
     "imagem": "./assets/image/Hospital Samaritano Campinas.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Vila Joao Jorge",
       "rua": "R. Eng. Monlevade",
       "numero": "206",
       "cep": "13041-304",
@@ -76,6 +81,7 @@
     "imagem": "./assets/image/Hospital Municipal Mário Gatti.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Parque Italia",
       "rua": "Av. Pref. Faria Lima",
       "numero": "340",
       "cep": "13036-902",
@@ -90,6 +96,7 @@
     "imagem": "./assets/image/HUC - Hospital Unimed Campinas.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Vila Rialto",
       "rua": "R. São Carlos",
       "numero": "369",
       "cep": "13035-420",
@@ -104,6 +111,7 @@
     "imagem": "./assets/image/Hospital Irmãos Penteado , Santa Casa de Campinas.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Cambuí",
       "rua": "Av. Júlio de Mesquita",
       "numero": "571",
       "cep": "13024-180",
@@ -118,6 +126,7 @@
     "imagem": "./assets/image/Beneficência Portuguesa.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Conceicao",
       "rua": "R. Onze de Agosto",
       "numero": "557",
       "cep": "13013-101",
@@ -132,6 +141,7 @@
     "imagem": "./assets/image/Maternidade de Campinas.jpg",
     "endereco": {
       "cidade": "Campinas",
+      "bairro": "Vila Itapura",
       "rua": "Av. Orosimbo Maia",
       "numero": "165",
       "cep": "13023-002",
