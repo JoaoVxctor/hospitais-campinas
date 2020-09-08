@@ -19,12 +19,17 @@
   height: 50vh;
   width: 100vw;
 }
-
+.carousel-item {
+  height: 400px;
+}
 .body {
   background-color: black;
 }
 .navbar {
   background-color: blueviolet;
+  position: static;
+  top: 0;
+  width: 100%;
 }
 .card-image {
   max-width: 12%;
@@ -50,7 +55,10 @@
   width: 50vw;
   margin-top: 2vh;
 }
-
+.carousel-caption {
+  background-color: black;
+  opacity: 0.8;
+}
 input {
   border-radius: 0px;
   box-shadow: 10px;
