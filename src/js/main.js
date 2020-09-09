@@ -34,6 +34,8 @@ const displayData = async data => {
 const displayHighlights = data => carousel.innerHTML = new CarouselItems(data).innerHTML;
 
 
+select(`#searchForm`).addEventListener(`submit`, e => e.preventDefault());
+
 document.addEventListener(`DOMContentLoaded`, async () => {
 
   const data = await getData();
@@ -50,6 +52,7 @@ searchBar.addEventListener(`keyup`, async e => {
     unnacent(d.endereco.rua).includes(searchString) ||
     unnacent(d.endereco.cep).includes(searchString) ||
     unnacent(d.endereco.numero).includes(searchString) ||
+    unnacent(d.endereco.bairro).includes(searchString) ||
     unnacent(d.nome).includes(searchString)
   ) : data;
 
