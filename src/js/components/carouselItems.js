@@ -24,9 +24,9 @@ export class CarouselItems {
   getCarouselItem({ imagem, nome }, active) {
     return `
           <div class="carousel-item  ${active ? 'active' : ''}">
-          <img class="d-block mx-auto my-auto" src="${ imagem || `https://www.tibs.org.tw/images/default.jpg`}" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>${nome}</h5>
+          <img class="d-block mx-auto my-auto img-fluid" src="${ imagem || `https://www.tibs.org.tw/images/default.jpg`}" alt="First slide">
+          <div class="carousel-caption  d-md-block">
+            <h5 >${nome}</h5>
           </div>
         </div>`;
   }
