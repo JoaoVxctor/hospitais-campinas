@@ -1,71 +1,84 @@
 * {
-  font-family: "Helvetica", "Roboto", Arial, "Ubunutu", Helvetica, sans-serif;
+    font-family: "Helvetica", "Roboto", Arial, "Ubunutu", Helvetica, sans-serif;
 }
 
 #map {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
+
 #highlights {
-  color: #48e0e4;
-  text-align: center;
+    color: #48e0e4;
+    text-align: center;
 }
+
 .text-header {
-  width: 100%;
-  display: flex;
-  margin-top: 20px;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
 }
 
 .map-container {
-  display: flex;
-  height: 50vh;
-  margin: 5vh;
+    display: flex;
+    height: 50vh;
+    margin: 5vh;
 }
+
 .carousel-item {
-  height: 400px;
+    height: 400px;
 }
+
 .carousel {
-  margin: 0px;
+    margin: 0px;
 }
+
 .body {
-  background-color: #0e0220;
+    background-color: #0e0220;
 }
+
 .navbar {
-  background-color: #e94560;
-  position: static;
-  top: 0;
-  width: 100%;
+    background-color: #e94560;
+    position: static;
+    top: 0;
+    width: 100%;
 }
+
 .card-image {
-  max-width: 12%;
-  image-resolution: 100%;
+    max-width: 12%;
+    image-resolution: 100%;
 }
 
 .display-flex {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .card {
-  max-width: 50vh;
+    max-width: 50vh;
 }
 
 .search-bar {
-  width: 100%;
-  border-radius: 0px;
-  width: 50vw;
-  margin-top: 2vh;
+    width: 100%;
+    border-radius: 0px;
+    width: 50vw;
+    margin-top: 2vh;
 }
+
 .carousel-caption {
-  background-color: black;
-  opacity: 0.8;
+    background-color: black;
+    opacity: 0.8;
 }
+
 input {
-  border-radius: 0px;
-  box-shadow: 10px;
+    border-radius: 0px;
+    box-shadow: 10px;
+}
+
+data-card {
+    margin: 20px;
 }
