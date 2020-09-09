@@ -9,8 +9,8 @@ export class DataCard extends HTMLElement {
                 <h3 class="card-title text-center">${nome}</h3>
                 <p class="card-text ">Inaugurado em ${inauguracao}<br />
                 Telefone: ${telefone} <br />
-                Endereco: ${endereco.cidade}, ${endereco.rua} - numero ${endereco.numero}<br />
-                CEP: ${endereco.cep}</p> 
+                Endereco: ${endereco.rua} nº ${endereco.numero}, ${endereco.bairro}<br />
+                CEP: ${endereco.cep} - ${endereco.cidade}</p> 
             </div>
         </div>
         `;
@@ -20,9 +20,9 @@ export class DataCard extends HTMLElement {
 
         const descObj = this.children[0].cloneNode(true);
         descObj.classList.forEach(c => descObj.classList.remove(c));
+        descObj.querySelector(`h3`).style.fontSize = `14px`;
 
         return descObj.innerHTML;
-
     }
 }
 
