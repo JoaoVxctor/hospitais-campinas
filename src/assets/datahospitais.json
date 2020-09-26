@@ -4,6 +4,7 @@
     "telefone": "(19) 3343-8600",
     "inauguracao": 1979,
     "imagem": "./assets/image/Hospital Puc-Campinas.jpg",
+    "id": 1,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Jardim Londres",
@@ -19,6 +20,7 @@
     "telefone": "(19) 3727-5200",
     "inauguracao": 2012,
     "imagem": "./assets/image/Hospital Renascença Campinas.png",
+    "id": 2,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Guanabara",
@@ -34,6 +36,7 @@
     "telefone": "(19) 3521-2121",
     "inauguracao": 1984,
     "imagem": "./assets/image/Hospital de Clínicas.jpg",
+    "id": 3,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Barão Geraldo",
@@ -49,6 +52,7 @@
     "telefone": "(19) 3734-3000",
     "inauguracao": 1943,
     "imagem": "./assets/image/Hospital Vera Cruz.jpg",
+    "id": 4,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Conceicao",
@@ -64,6 +68,7 @@
     "telefone": "(19) 3736-1000",
     "inauguracao": 1979,
     "imagem": "./assets/image/Hospital Samaritano Campinas.jpg",
+    "id": 5,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Vila Joao Jorge",
@@ -79,6 +84,7 @@
     "telefone": "(19) 3772-5700",
     "inauguracao": 1974,
     "imagem": "./assets/image/Hospital Municipal Mário Gatti.jpg",
+    "id": 6,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Parque Italia",
@@ -94,6 +100,7 @@
     "telefone": "(19) 3773-9310",
     "inauguracao": 2017,
     "imagem": "./assets/image/HUC - Hospital Unimed Campinas.jpg",
+    "id": 7,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Vila Rialto",
@@ -109,6 +116,7 @@
     "telefone": "(19) 2515-3100",
     "inauguracao": 1936,
     "imagem": "./assets/image/Hospital Irmãos Penteado , Santa Casa de Campinas.jpg",
+    "id": 8,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Cambuí",
@@ -124,6 +132,7 @@
     "telefone": "(19) 3739-4000",
     "inauguracao": 1873,
     "imagem": "./assets/image/Beneficência Portuguesa.jpg",
+    "id": 9,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Conceicao",
@@ -139,6 +148,7 @@
     "telefone": "(19) 3306-6000",
     "inauguracao": 1913,
     "imagem": "./assets/image/Maternidade de Campinas.jpg",
+    "id": 10,
     "endereco": {
       "cidade": "Campinas",
       "bairro": "Vila Itapura",
