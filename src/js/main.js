@@ -2,12 +2,12 @@ import { DataCard } from './components/dataCard.js';
 import { CarouselItems } from './components/carouselItems.js';
 import { unnacent, select } from './utils.js';
 import { addMarker, clearMarkers } from './mapService.js';
+import { favourites, addFavouritesListeners } from './favouriteService.js';
 
 
 const searchBar = select(`#searchBar`);
 const carousel = select(`.carousel-inner`);
 const main = select(`main`);
-
 
 
 const getData = async () => {
@@ -19,14 +19,17 @@ const getData = async () => {
 const displayData = async data => {
   main.innerHTML = ``;
   clearMarkers();
-
+  
   data.forEach(hospital => {
+    hospital.favorito = favourites.includes(`${hospital.id}`);
     const el = document.createElement(`data-card`);
     el.data = hospital;
     main.appendChild(el);
 
     addMarker(hospital, el);
   });
+
+  addFavouritesListeners();
 
 };
 
@@ -47,8 +50,12 @@ document.addEventListener(`DOMContentLoaded`, async () => {
 searchBar.addEventListener(`keyup`, async e => {
   const searchString = e.target.value?.toLowerCase();
 
+  await filterHospitals(searchString);
+});
+
+const filterHospitals = async searchString => {
   const data = await getData();
-  const searchData = searchString ? data.filter(d =>
+  const searchResult = searchString ? data.filter(d =>
     unnacent(d.endereco.rua).includes(searchString) ||
     unnacent(d.endereco.cep).includes(searchString) ||
     unnacent(d.endereco.numero).includes(searchString) ||
@@ -56,5 +63,7 @@ searchBar.addEventListener(`keyup`, async e => {
     unnacent(d.nome).includes(searchString)
   ) : data;
 
-  displayData(searchData);
-});
+  displayData(searchResult);
+}
+
+export { filterHospitals }
