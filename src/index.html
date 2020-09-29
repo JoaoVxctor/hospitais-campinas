@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <link rel="icon" type="image/png" href="./assets/favicon.ico" />
 
@@ -18,17 +19,17 @@
 <body class="body">
     <nav id="app" class="navbar navbar-dark navbar-expand-lg standard">
         <a class="navbar-brand" href="#">Alguem me ajuda</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#highlights">Destaques</a>
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#highlights">Destaques</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#map">Mapa</a>
@@ -61,12 +62,13 @@
     <container class="map-container">
         <div id="map"></div>
     </container>
-    </div>
+
 
     <div>
         <container class="display-flex">
             <form class="form-group search-bar" id="searchForm">
-                <input class="form-control mr-sm-1" type="text" placeholder="Busca por nome ou endereco" aria-label="Search" id="searchBar" />
+                <input class="form-control mr-sm-1" type="text" placeholder="Busca por nome ou endereco"
+                    aria-label="Search" id="searchBar" />
             </form>
         </container>
 
@@ -76,15 +78,52 @@
                 <main class="display-flex mt-4 d-flex align-items-stretch"></main>
             </div>
         </container>
+    </div>
 
-        <script src="./js/main.js" type="module"></script>
-        <script src="./js/utils.js" type="module"></script>
-        <script src="./js/favouriteService.js" type="module"></script>
-        <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <br><br>
 
-        <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <form>
+        <h2 style="text-align: center;">Fale Conosco</h2>
+        <div class="form-group">
+            <label class="faleconoscolbl" for="inputNome">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+        </div>
+        <div class="form-group">
+            <label class="faleconoscolbl" for="inputEmail">Endereço de email</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu email">
+        </div>
+        <div class="form-group">
+            <label class="faleconoscolbl" for="inputComentario">Comentario</label>
+            <input type="text" class="form-control" id="comentario" placeholder="comentario">
+        </div>
+        <button type="submit" class="btn btn-primary" id="envia">Enviar</button>
+    </form>
+
+    <br>
+
+    <div class="footer">
+        <div class="footer-content">
+            <a class="rodape-text" href="https://www.mapbox.com/">© Mapbox</a>
+            <a class="rodape-text" href="https://getbootstrap.com/">© Bootstrap</a>
+            <a class="rodape-text" href="https://jquery.com/">© JQuery</a>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; alguemmeajudaeds.web.app | Designed by Matheus Davy e João Victor
+        </div>
+    </div>
+
+
+    <script src="./js/main.js" type="module"></script>
+    <script src="./js/utils.js" type="module"></script>
+    <script src="./js/favouriteService.js" type="module"></script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+	<script src="./js/bancodedados/saveEmail.js"></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
 </body>
 
 </html>
