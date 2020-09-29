@@ -1,8 +1,4 @@
-import { filterHospitals } from './main.js';
-import { select } from './utils.js'
-
-const favourites = JSON.parse(localStorage.getItem('favourites') || []);
-const searchBar = select('#searchBar');
+const favourites = JSON.parse(localStorage.getItem('favourites') || '[]');
 
 const addFavouritesListeners = () => {
     const favouriteButtons = document.querySelectorAll(' .fa-heart ');
@@ -20,7 +16,6 @@ const favButton = async button => {
     }
 
     localStorage.setItem('favourites', JSON.stringify(favourites));
-    await filterHospitals(searchBar.value);
 }
 
 export { favourites, addFavouritesListeners }
