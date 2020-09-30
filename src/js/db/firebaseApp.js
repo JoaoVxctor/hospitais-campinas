@@ -6,8 +6,10 @@ const firebaseConfig = {
     storageBucket: "alguemmeajudaeds.appspot.com",
     messagingSenderId: "1001720597018",
     appId: "1:1001720597018:web:1c3dac12da9890ebbb1fa3"
-};
+  };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-//var db = firebase.firestore();
+const db = firebase.firestore();
+
+export { db }

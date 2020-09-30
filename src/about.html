@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <link rel="icon" type="image/png" href="./assets/favicon.ico" />
 
@@ -18,7 +19,8 @@
 <body class="body">
     <nav id="app" class="navbar navbar-dark navbar-expand-lg standard">
         <a class="navbar-brand" href="#">Alguem me ajuda</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
@@ -87,20 +89,30 @@
         <form class="mx-5 my-2">
             <h2 style="text-align: center;">Fale Conosco</h2>
             <div class="form-group">
-                <label class="faleconoscolbl" for="inputNome">Nome</label>
-                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                <label class="faleconoscolbl" for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome" required />
             </div>
             <div class="form-group">
-                <label class="faleconoscolbl" for="inputEmail">Endereço de email</label>
-                <input type="email" class="form-control" id="email" placeholder="Seu email">
+                <label class="faleconoscolbl" for="email">Endereço de email</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu email" required />
             </div>
             <div class="form-group">
-                <label class="faleconoscolbl" for="inputComentario">Comentario</label>
-                <textarea class="form-control" id="inputComentario" rows="3"></textarea>
+                <label class="faleconoscolbl" for="comentario">Comentario</label>
+                <textarea class="form-control" id="comentario" rows="3" required></textarea>
 
             </div>
-            <button type="submit" class="btn " id="envia">Enviar</button>
+            <button type="submit" class="btn " id="sendButton" data-toggle="popover" title="Popover title"
+                data-content="And here's some amazing content. It's very engaging. Right?">Enviar</button>
+
         </form>
+        <br />
+
+    </div>
+    <div class="alert-container">
+        <div class="alert alert-success alert-dismissible fade hide" id="alert">
+            <strong>Obrigado pelo comentário</strong>
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
     </div>
     <br>
 
@@ -117,14 +129,12 @@
     </div>
 
 
-    <script src="./js/main.js" type="module"></script>
-    <script src="./js/utils.js" type="module"></script>
-    <script src="./js/favouriteService.js" type="module"></script>
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
-    <script src="./js/bancodedados/saveEmail.js"></script>
+    <script src="./js/db/saveEmail.js" type="module"></script>
+    <script src="./js/about.js" type="module"></script>
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
 </body>

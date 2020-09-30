@@ -168,3 +168,20 @@ form {
     width: 200px;
     margin-right: 100px;
 }
+.favourite{
+    color: #e94560;
+    float: right;
+    
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.alert-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alert-container .alert{
+    width: 70vh;
+    text-align: center;
+}
