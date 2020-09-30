@@ -12,7 +12,7 @@ const map = new mapboxgl.Map({
 });
 
 const clearMarkers = () => {
-    markers.forEach(marker => marker.popup.isOpen() || marker.remove());
+    markers.forEach(marker => marker.remove());
     markers.length = 0;
 };
 
