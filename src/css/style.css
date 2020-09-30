@@ -34,7 +34,7 @@
 }
 
 .body {
-    background-color: #0e0220;
+    background-color: #1a1a2e;
 }
 
 .navbar {
@@ -91,13 +91,13 @@ data-card {
     position: relative;
 }
 
-.footer .footer-content{
+.footer .footer-content {
     text-align: center;
     height: 50px;
     padding-top: 15px;
 }
 
-.footer .footer-bottom{
+.footer .footer-bottom {
     background: #dfdfdf;
     color: black;
     height: 50px;
@@ -109,13 +109,62 @@ data-card {
     padding-top: 15px;
 }
 
-.rodape-text{
+.rodape-text {
     color: black;
 }
 
-form { 
-    background: white;
+form {
+    color: white;
     margin-right: 30%;
     margin-left: 30%;
 }
 
+.faleconosco {
+    margin-top: 10vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.faleconosco form {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.faleconosco button {
+    float: right;
+    background-color: #e94560;
+    color: white;
+}
+
+.dev {
+    color: white;
+    margin-top: 10vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.devs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev img {
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 100px;
+}

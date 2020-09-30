@@ -23,62 +23,64 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#highlights">Destaques</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#map">Mapa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#hospitais">Hospitais listados</a>
+                </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#highlights">Destaques</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#map">Mapa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#hospitais">Hospitais listados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="index.html#hospitais">Sobre <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <container id="highlights">
-        <div class="text-header">
-            <h2>Destaques</h2>
-        </div>
+    <div class="devs">
 
-        <div id="carouselExampleControls" class="carousel slide mx-5 my-2" data-ride="carousel">
-            <div class="carousel-inner"></div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </container>
+        <div class="dev">
+            <img src="assets/image/matheus.jpeg">
+            <div>
+                <h5><strong>Matheus Davy Machado</strong></h5>
+                <br />
+                <p>
+                    Aluno no Instituto Federal de São Paulo <br /> Studying systems analysis and development.
 
-    <container class="map-container">
-        <div id="map"></div>
-    </container>
+                    <br /> Melhor Bardo da rua.<br />
 
-
-    <div>
-        <container class="display-flex">
-            <form class="form-group search-bar" id="searchForm">
-                <input class="form-control mr-sm-1" type="text" placeholder="Busca por nome ou endereco" aria-label="Search" id="searchBar" />
-            </form>
-        </container>
-
-
-        <container>
-            <div class="card-group display-flex" id="hospitais">
-                <main class="display-flex mt-4 d-flex align-items-stretch"></main>
+                    <strong>
+                        CP3001334
+                    </strong>
+                </p>
             </div>
-        </container>
+
+        </div>
+
+        <div class="dev">
+            <img src="assets/image/joao.jpg">
+            <div>
+                <h5><strong> João Victor Fernandes e Silva</strong></h5>
+                <br />
+                <p>
+                    Aluno no Instituto Federal de São Paulo <br /> Apenas um jovem curioso atrás de conhecimento.<br />
+
+                    <strong>
+                        CP3001059
+                    </strong>
+                </p>
+            </div>
+            <br />
+        </div>
+
     </div>
+
+
 
     <br><br>
     <div class="faleconosco" id="faleconosco">
@@ -94,9 +96,10 @@
             </div>
             <div class="form-group">
                 <label class="faleconoscolbl" for="inputComentario">Comentario</label>
-                <input type="text" class="form-control" id="comentario" placeholder="comentario">
+                <textarea class="form-control" id="inputComentario" rows="3"></textarea>
+
             </div>
-            <button type="submit" class="btn btn-primary" id="envia">Enviar</button>
+            <button type="submit" class="btn " id="envia">Enviar</button>
         </form>
     </div>
     <br>
